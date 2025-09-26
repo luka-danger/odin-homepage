@@ -4,20 +4,27 @@
     box-sizing: border-box;
 }
 
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+    max-width: 100%;
+}
+
 body {
     background-color: cornflowerblue;
 }
 
+
+
 .container {
-    min-height: 100vh;
+    min-height: 100dvh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .header, .footer {
-    height: 30vh;
-    background-color: cornflowerblue;
+    min-height: 30vh;
 }
 
 .grid {
@@ -26,8 +33,7 @@ body {
     margin: 0 auto;
     display: grid;
     gap: 2.5em;
-    padding: 5em;
-    background-color: coral ;
+    padding: 2em 1em;
     width: 100%;
 }
 
