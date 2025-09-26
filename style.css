@@ -1,3 +1,18 @@
-body {
-    background-color: blueviolet;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+}
+
+.header, .footer {
+    height: 30vh;
+    background-color: cornflowerblue;
+}
+
+.projects {
+    height: 40vh;
+    background-color: coral ;
 }
