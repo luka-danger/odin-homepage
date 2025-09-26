@@ -24,6 +24,7 @@ body {
 
 .header, .footer {
     min-height: 30vh;
+    padding: 1.5em;
 }
 
 .header {
@@ -31,7 +32,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 
 
 #bear {
