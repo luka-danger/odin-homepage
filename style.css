@@ -11,17 +11,17 @@
 }
 
 .grid {
+    max-width: 1200px;
+    margin: 0 auto;
     display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1.5em;
-    padding: 1.5em;
+    gap: 2.5em;
+    padding: 5em;
     background-color: coral ;
 }
 
 .card {
-    height: 150px;
-    width: 150px;
+    height: 25em;
+    width: 20em;
     background-color: plum;
 }
 
@@ -35,4 +35,14 @@
     flex-direction: column;
     align-items: center;
     background-color: coral ;
+}
+
+/* Tablet View */
+@media (min-width: 600px) {
+    .grid {grid-template-columns: repeat(2, 1fr);}
+}
+
+/* Laptop / Desktop View */
+@media (min-width: 900px) {
+    .grid {grid-template-columns: repeat(3, 1fr);}
 }
