@@ -1,34 +1,43 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     background-color: cornflowerblue;
 }
 
-
 .container {
-    height: 100vh;
-
-}
-
-.grid {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    gap: 2.5em;
-    padding: 5em;
-    background-color: coral ;
-}
-
-.card {
-    height: 25em;
-    width: 20em;
-    background-color: plum;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .header, .footer {
     height: 30vh;
     background-color: cornflowerblue;
 }
+
+.grid {
+    max-width: 1200px;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    display: grid;
+    gap: 2.5em;
+    padding: 5em;
+    background-color: coral ;
+    width: 100%;
+}
+
+.card {
+    height: auto;
+    width: 100%;
+    aspect-ratio: 4/5;
+    background-color: plum;
+}
+
 
 .projects {
     display: flex;
