@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-    background-color: cornflowerblue;
+    background-image: linear-gradient(to right, #1471a3, white);
 }
 
 
@@ -31,13 +31,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 
 #bear {
     width: 300px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 30%;
+}
+
+.about-text {
+    background-color: white;
+    padding: 1em 5em;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10% 0% 0% 10%;
 }
 
 .grid {
@@ -55,6 +64,7 @@ body {
     width: 100%;
     aspect-ratio: 4/5;
     background-color: plum;
+    border: 1px solid black;
 }
 
 
@@ -62,15 +72,22 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: coral ;
+    background-color: white ;
 }
 
 /* Tablet View */
 @media (min-width: 600px) {
     .grid {grid-template-columns: repeat(2, 1fr);}
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /* Laptop / Desktop View */
 @media (min-width: 900px) {
     .grid {grid-template-columns: repeat(3, 1fr);}
+    .header {
+        flex-direction: row;
+    }
 }
