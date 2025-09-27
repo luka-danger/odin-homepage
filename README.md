@@ -10,13 +10,13 @@ This project is a basic portfolio homepage, solely built using HTML / CSS with a
 The full challenge description can be found here: https://www.theodinproject.com/lessons/node-path-advanced-html-and-css-homepage
 
 ## Screenshots: 
-<u>Laptop View</u>
+### Laptop View
 
 ![Laptop View](images/laptop-view.png)
 
 ![Laptop View](images/laptop-view2.png)
 
-<u>Tablet View</u>
+### Tablet View
 
 ![Tablet View](images/tablet-view.png)
 
@@ -24,7 +24,7 @@ The full challenge description can be found here: https://www.theodinproject.com
 
 ![Tablet View](images/tablet-view3.png)
 
-<u>Phone View</u>
+### Phone View
 
 ![Phone View](images/phone-view.png)
 
