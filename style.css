@@ -67,8 +67,6 @@ body {
     font-size: 20px;
     border-radius: 5%;
     width: 60vw;
-    
-    
 }
 
 .about-text {
@@ -153,6 +151,14 @@ body {
 
 /* Card Text */ 
 
+h4 {
+    font-size: 1.5em;
+}
+
+.card-text {
+    font-size: 1em;
+}
+
 a, a:visited {
     color: black;
     text-decoration: underline;
@@ -164,8 +170,8 @@ a:active {
 
 /* RESPONSIVE VIEWS */
 
-/* Tablet View */
-@media (min-width: 750px) {
+/* Small Laptop */
+@media (min-width: 975px) {
     .grid {grid-template-columns: repeat(2, 1fr);}
     .header, .footer {
         display: flex;
@@ -177,10 +183,20 @@ a:active {
     #about {
         display: block;
     }
+    .card-text{
+        font-size: 1.25em;
+    }
+}
+
+/* Tablet View */
+@media (min-width: 550px) {
+    .card-text{
+        font-size: 1.5em;
+    }
 }
 
 /* Laptop / Desktop View */
-@media (min-width: 1170px) {
+@media (min-width: 1400px) {
     .grid {grid-template-columns: repeat(3, 1fr);}
     .header, .footer {
         flex-direction: row;
@@ -194,9 +210,17 @@ a:active {
     #about {
         display: block;
     }
+    .header-p {
+        font-size: 1.5em;
+    }
+    .card-text{
+        font-size: 1.35em;
+    }
 }
 
+
+
 /* Small Screen */
-@media (max-width: 350px) {
+@media (max-width: 400px) {
     h1, p, .about-text, .bottom {display: none;};
 }
