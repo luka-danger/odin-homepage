@@ -215,7 +215,6 @@ a:active {
 }
 
 
-
 /* Small Screen */
 @media (max-width: 400px) {
     h1, p, .about-text, .bottom, .footer-text {display: none;};
