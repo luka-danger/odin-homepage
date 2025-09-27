@@ -14,7 +14,7 @@ html, body {
 
 body {
         background: 
-        linear-gradient(155deg, #1471a3 20em, rgb(255, 255, 255) 30em);
+        linear-gradient(155deg, #1471a3 35em, rgba(45, 148, 204, 0.709) 40em, rgb(255, 255, 255) 50em);
         font-family: "Darker Grotesque", serif;
 }
 
@@ -33,13 +33,15 @@ body {
     justify-content: center;
     flex-direction: column;
     min-height: 30vh;
-    padding: 1.5em;
-    padding: 3em;
+}
+
+.header {
+    padding-top: 4em;
 }
 
 .footer {
-    background: 
-        linear-gradient(155deg, white 10em, #1471a3 50em);
+    background: linear-gradient(155deg, white 10em, #1471a3 50em);
+    padding: 2em;
 }
 
 /* Header and Footer Content */ 
@@ -72,6 +74,7 @@ body {
     justify-content: center;
     background-color: white ;
     margin-top: 80px;
+    padding: 1.5em;
 }
 
 /* Project Content */
