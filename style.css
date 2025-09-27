@@ -51,7 +51,7 @@ body {
 }
 
 .header-p {
-    font-size: 0.9em;
+    font-size: 1.5em;
 }
 
 #header-pic,
@@ -64,7 +64,6 @@ body {
 .footer-text {
     background-color: white;
     padding: 1em 5em;
-    font-size: 20px;
     border-radius: 5%;
     width: 60vw;
 }
@@ -75,6 +74,9 @@ body {
 
 .footer-text {
     margin-bottom: 2em;
+    font-size: 1.5em;
+    text-align: center;
+    min-width: 400px;
 }
 
 
@@ -177,9 +179,6 @@ a:active {
         display: flex;
         flex-direction: column;
     }
-    .header-p {
-        font-size: 1.5em;
-    }
     #about {
         display: block;
     }
@@ -210,9 +209,6 @@ a:active {
     #about {
         display: block;
     }
-    .header-p {
-        font-size: 1.5em;
-    }
     .card-text{
         font-size: 1.35em;
     }
@@ -222,5 +218,5 @@ a:active {
 
 /* Small Screen */
 @media (max-width: 400px) {
-    h1, p, .about-text, .bottom {display: none;};
+    h1, p, .about-text, .bottom, .footer-text {display: none;};
 }
