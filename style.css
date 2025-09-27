@@ -46,8 +46,12 @@ body {
 
 /* Header and Footer Content */ 
 
+#about {
+    display: none;
+}
+
 .header-p {
-    font-size: 1.5em;
+    font-size: 0.9em;
 }
 
 #header-pic,
@@ -63,7 +67,7 @@ body {
     font-size: 20px;
     border-radius: 5%;
     width: 60vw;
-    text-align: center;
+    
     
 }
 
@@ -119,6 +123,7 @@ body {
     border-radius: 10%;
     text-wrap: wrap;
     overflow: hidden;
+    text-align: center;
 }
 
 
@@ -166,6 +171,12 @@ a:active {
         display: flex;
         flex-direction: column;
     }
+    .header-p {
+        font-size: 1.5em;
+    }
+    #about {
+        display: block;
+    }
 }
 
 /* Laptop / Desktop View */
@@ -176,6 +187,12 @@ a:active {
     }
     .header-text, .footer-text {
         border-radius: 5% 0% 0% 5%;
+    }
+    .header-p {
+        font-size: 1.5em;
+    }
+    #about {
+        display: block;
     }
 }
 
