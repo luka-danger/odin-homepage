@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +15,7 @@ html, body {
 body {
         background: 
         linear-gradient(155deg, #1471a3 20em, rgb(255, 255, 255) 30em);
+        font-family: "Darker Grotesque", serif;
 }
 
 .footer {
@@ -27,20 +30,21 @@ body {
     justify-content: space-between;
 }
 
-.header, .footer {
-    min-height: 30vh;
-    padding: 1.5em;
-}
 
 .header, .footer {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    min-height: 30vh;
+    padding: 1.5em;
+    padding: 3em;
 }
 
 
-#bear {
+
+#header-pic,
+#footer-pic {
     width: 300px;
     height: auto;
     border-radius: 30%;
@@ -52,6 +56,11 @@ body {
     text-align: center;
     font-size: 20px;
     border-radius: 5% 0% 0% 5%;
+}
+
+#footer-text {
+    width: 60vw;
+    text-align: center;
 }
 
 .grid {
@@ -78,29 +87,34 @@ body {
 
 .top {
     background: linear-gradient(155deg, #1471a3 5em, rgb(255, 255, 255) 30em);
-    flex: 70%;
+    flex: 55%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .bottom {
-    flex: 30%;
+    flex: 45%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .images {
     width: 100%;
 }
 
+h4 {
+    color: black;
+}
 
 #project-header {
     display: flex;
     align-content: baseline;
     padding-top: 1em;
-    padding-left: 1em;
+    padding-left: 2em;
 }
 
 .projects {
