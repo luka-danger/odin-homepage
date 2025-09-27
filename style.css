@@ -105,6 +105,10 @@ body {
     width: 100%;
 }
 
+h1 {
+    font-size: 3em;
+}
+
 h4 {
     font-size: 1.5em;
 }
@@ -146,4 +150,9 @@ a:active {
     .header, .footer {
         flex-direction: row;
     }
+}
+
+/* Small Screen */
+@media (max-width: 350px) {
+    h1, p, .about-text, .bottom {display: none;};
 }
