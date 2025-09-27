@@ -53,7 +53,6 @@ body {
 .about-text {
     background-color: white;
     padding: 1em 5em;
-    text-align: center;
     font-size: 20px;
     border-radius: 5% 0% 0% 5%;
 }
@@ -107,13 +106,22 @@ body {
 }
 
 h4 {
+    font-size: 1.5em;
+}
+
+a, a:visited {
     color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgba(0, 0, 0, 0.427);
 }
 
 #project-header {
     display: flex;
     align-content: baseline;
-    padding-top: 1em;
+    padding-top: 2em;
     padding-left: 2em;
 }
 
