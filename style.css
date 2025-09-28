@@ -51,12 +51,12 @@ body {
 }
 
 .header-p {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 #header-pic,
 #footer-pic {
-    width: 40em;
+    width: 20em;
     border-radius: 30%;
 }
 
@@ -142,7 +142,6 @@ body {
     justify-content: baseline;
     align-items: center;
     text-align: center;
-    padding-top: 1em;
     padding-left: 1em;
     padding-right: 1em;
 }
@@ -158,7 +157,7 @@ h4 {
 }
 
 .card-text {
-    font-size: 1em;
+    font-size: 0.85em;
 }
 
 a, a:visited {
@@ -185,12 +184,28 @@ a:active {
     .card-text{
         font-size: 1.25em;
     }
+    #header-pic,
+    #footer-pic {
+        width: 30em;
+    }
+    .header-p {
+        font-size: 1.5em;
+    }
+    .bottom {
+        padding-top: 1em;
+    }
 }
 
 /* Tablet View */
 @media (min-width: 550px) {
     .card-text{
         font-size: 1.5em;
+    }
+    .header-p {
+        font-size: 1.5em;
+    }
+    .bottom {
+        padding-top: 1em;
     }
 }
 
@@ -212,10 +227,25 @@ a:active {
     .card-text{
         font-size: 1.35em;
     }
+    #header-pic,
+    #footer-pic {
+        width: 40em;
+    }
+    .bottom {
+        padding-top: 1em;
+    }
 }
 
 
+/* Phone Screen */
+@media (max-width: 450px) {
+    .project-header, .footer-text {display: none;};
+    .bottom {
+        padding-top: 1em;
+    }
+}
+
 /* Small Screen */
-@media (max-width: 400px) {
+@media (max-width: 350px) {
     h1, p, .about-text, .bottom, .footer-text {display: none;};
 }
