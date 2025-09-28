@@ -63,13 +63,13 @@ body {
 .about-text,
 .footer-text {
     background-color: white;
-    padding: 1em 5em;
     border-radius: 5%;
     width: 60vw;
 }
 
 .about-text {
     margin-top: 2em;
+    padding: 1em;
 }
 
 .footer-text {
@@ -77,6 +77,7 @@ body {
     font-size: 1.5em;
     text-align: center;
     min-width: 400px;
+    padding: 1em 5em;
 }
 
 
@@ -194,6 +195,9 @@ a:active {
     .bottom {
         padding-top: 1em;
     }
+    .about-text {
+        padding: 1em 5em;
+    }
 }
 
 /* Tablet View */
@@ -206,6 +210,9 @@ a:active {
     }
     .bottom {
         padding-top: 1em;
+    }
+    .about-text {
+        padding: 1em 5em;
     }
 }
 
@@ -233,6 +240,9 @@ a:active {
     }
     .bottom {
         padding-top: 1em;
+    }
+    .about-text {
+        padding: 1em 5em;
     }
 }
 
