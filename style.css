@@ -249,7 +249,7 @@ a:active {
 
 /* Phone Screen */
 @media (max-width: 450px) {
-    .project-header, .footer-text {display: none;};
+    .project-header {display: none;};
     .bottom {
         padding-top: 1em;
     }
