@@ -125,6 +125,7 @@ body {
     text-wrap: wrap;
     overflow: hidden;
     text-align: center;
+    overflow: scroll;
 }
 
 
