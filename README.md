@@ -14,7 +14,7 @@ The full challenge description can be found here: https://www.theodinproject.com
 
 ![Laptop View](images/laptop-view.png)
 
-![Laptop View](images/laptop-view2.png)
+![Laptop View](images/laptop-view-2.png)
 
 ### Tablet View
 
